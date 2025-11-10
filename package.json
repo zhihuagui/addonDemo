@@ -1,0 +1,13 @@
+{
+    "name": "node-addon",
+    "scripts": {
+        "build": "CC=clang CXX=clang++ cmake-js compile",
+        "clean": "cmake-js clean"
+    },
+    "dependencies": {
+        "node-addon-api": "8.5.0"
+    },
+    "devDependencies": {
+        "cmake-js": "7.3.1"
+    }
+}
